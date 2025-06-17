@@ -8,6 +8,7 @@
 }
 
 
+
 #hero{
     height: 734px;
     background-image:
@@ -76,6 +77,8 @@
     line-height: 18px;
     text-align: center;
 }
+
+
 
 .cards-area{
     margin: 0 auto;
@@ -163,4 +166,74 @@
 
     opacity: 0.7;
 
+}
+
+.about-us{
+    display: flex;
+    margin-top: 130px;
+}
+
+.about-us-image{
+    width: 50%;
+}
+
+.about-us-image img{
+    width: 768px;
+
+}
+
+
+.about-us-title{
+    margin: 0 70px;
+    margin-top: 90px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us-description{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+    opacity: 0.6;
+
+    margin-bottom: 70px;
+
+}
+
+.follow-us{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+
+    padding: 20px 8px;
+
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+
+    opacity: 0.6;
+}
+
+.social-icons{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.social-icons img{
+    width: 40px;
+    height: 36px;
+    margin-left: 28px;
+    margin-bottom: 130px;
 }
